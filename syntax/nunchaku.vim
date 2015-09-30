@@ -25,8 +25,8 @@ syn keyword     nunRole        def val axiom
 
 syn match       nunBuiltin     "prop\>"
 
-syn match       nunConnective  ":"
 syn match       nunConnective  ":="
+syn match       nunConnective  ":\>"
 syn match       nunConnective  "->"
 syn match       nunConnective  "=>"
 syn match       nunConnective  "fun"
