@@ -27,6 +27,8 @@ syn match       nunBuiltin     "type\>"
 syn match       nunBuiltin     "prop\>"
 syn match       nunBuiltin     "true\>"
 syn match       nunBuiltin     "false\>"
+syn match       nunBuiltin     "forall\>"
+syn match       nunBuiltin     "exists\>"
 
 syn match       nunConnective  ":="
 syn match       nunConnective  ":\>"
