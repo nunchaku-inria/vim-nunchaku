@@ -39,7 +39,7 @@ syn match       nunConnective  "fun"
 syn match       nunConnective  "let"
 syn match       nunConnective  "&"
 syn match       nunConnective  "|"
-syn match       nunConnective  "~"
+syn match       nunConnective  "\~"
 
 syn match       nunVar         "\<\u\w*\>"
 
