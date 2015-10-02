@@ -23,18 +23,17 @@ syn case match
 
 syn keyword     nunRole        def val axiom
 
-syn match       nunBuiltin     "type\>"
-syn match       nunBuiltin     "prop\>"
-syn match       nunBuiltin     "true\>"
-syn match       nunBuiltin     "false\>"
-syn match       nunBuiltin     "forall\>"
-syn match       nunBuiltin     "exists\>"
+syn match       nunBuiltin     "\<type\>"
+syn match       nunBuiltin     "\<prop\>"
+syn match       nunBuiltin     "\<true\>"
+syn match       nunBuiltin     "\<false\>"
+syn match       nunBuiltin     "\<forall\>"
 
 syn match       nunConnective  ":="
 syn match       nunConnective  ":\>"
 syn match       nunConnective  "->"
-syn match       nunConnective  "==>"
 syn match       nunConnective  "=>"
+syn match       nunConnective  "\<=\>"
 syn match       nunConnective  "fun"
 syn match       nunConnective  "let"
 syn match       nunConnective  "&"
