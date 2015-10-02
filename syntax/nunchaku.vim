@@ -30,7 +30,7 @@ syn match       nunBuiltin     "\<false\>"
 syn match       nunBuiltin     "\<forall\>"
 
 syn match       nunConnective  "\<:=\>"
-syn match       nunConnective  "\<.\>"
+syn match       nunConnective  "\<\.\>"
 syn match       nunConnective  "\<:\>"
 syn match       nunConnective  "->"
 syn match       nunConnective  "=>"
@@ -41,7 +41,7 @@ syn match       nunConnective  "&"
 syn match       nunConnective  "|"
 syn match       nunConnective  "\~"
 syn match       nunConnective  "!"
-syn match       nunConnective  "\?"
+syn match       nunConnective  "?"
 
 syn match       nunVar         "\<\u\w*\>"
 
