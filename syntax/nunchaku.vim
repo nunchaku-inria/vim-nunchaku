@@ -21,7 +21,7 @@ set expandtab
 
 syn case match
 
-syn keyword     nunRole        def val axiom
+syn keyword     nunRole        def val axiom goal
 
 syn match       nunBuiltin     "\<type\>"
 syn match       nunBuiltin     "\<prop\>"
