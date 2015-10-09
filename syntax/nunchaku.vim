@@ -21,13 +21,13 @@ set expandtab
 
 syn case match
 
-syn keyword     nunRole        def val axiom goal
+syn keyword     nunRole        val axiom goal spec rec
 
 syn match       nunBuiltin     "\<type\>"
 syn match       nunBuiltin     "\<prop\>"
 syn match       nunBuiltin     "\<true\>"
 syn match       nunBuiltin     "\<false\>"
-syn match       nunBuiltin     "\<forall\>"
+syn match       nunBuiltin     "\<pi\>"
 
 syn match       nunConnective  "\."
 syn match       nunConnective  ":"
