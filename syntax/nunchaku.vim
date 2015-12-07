@@ -21,7 +21,7 @@ set expandtab
 
 syn case match
 
-syn keyword     nunRole        val axiom goal spec rec data codata
+syn keyword     nunRole        val axiom goal spec rec data codata include
 
 syn match       nunBuiltin     "\<type\>"
 syn match       nunBuiltin     "\<prop\>"
@@ -51,7 +51,7 @@ syn match       nunConnective  "|"
 syn match       nunConnective  "\~"
 syn match       nunConnective  "?"
 syn match       nunConnective  "\<forall\>"
-syn match       nunConnective   "\<exists\>"
+syn match       nunConnective  "\<exists\>"
 
 syn match       nunVar         "\<\u\w*\>"
 
