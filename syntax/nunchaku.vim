@@ -52,6 +52,9 @@ syn match       nunConnective  "\~"
 syn match       nunConnective  "?"
 syn match       nunConnective  "\<forall\>"
 syn match       nunConnective  "\<exists\>"
+syn match       nunConnective  "\<if\>"
+syn match       nunConnective  "\<then\>"
+syn match       nunConnective  "\<else\>"
 
 syn match       nunVar         "\<\u\w*\>"
 
