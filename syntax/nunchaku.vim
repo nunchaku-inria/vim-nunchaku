@@ -28,6 +28,8 @@ syn match       nunBuiltin     "\<type\>"
 syn match       nunBuiltin     "\<prop\>"
 syn match       nunBuiltin     "\<true\>"
 syn match       nunBuiltin     "\<false\>"
+syn match       nunBuiltin     "\<choice\>"
+syn match       nunBuiltin     "\<uchoice\>"
 syn match       nunBuiltin     "\<pi\>"
 
 syn match       nunConnective  "\."
