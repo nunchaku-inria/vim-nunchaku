@@ -22,7 +22,7 @@ set expandtab
 syn case match
 
 syn keyword     nunRole        val axiom goal spec rec data codata
-syn keyword     nunRole        include pred copred copy abstract concretize
+syn keyword     nunRole        include pred copred copy abstract concrete
 
 syn match       nunBuiltin     "\<type\>"
 syn match       nunBuiltin     "\<prop\>"
