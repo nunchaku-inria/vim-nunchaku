@@ -23,6 +23,7 @@ syn case match
 
 syn keyword     nunRole        val axiom goal spec rec data codata
 syn keyword     nunRole        include pred copred copy abstract concrete
+syn keyword     nunRole        subset quotient partial_quotient
 
 syn match       nunBuiltin     "\<type\>"
 syn match       nunBuiltin     "\<prop\>"
